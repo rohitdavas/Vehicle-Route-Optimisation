@@ -5,22 +5,8 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
-
-Replace 
-Vehicle-Route-Optimisation
-Bosch Route Optimisation
-A solution proposed for bosch route optimisation problem during Inter IIT Tech Meet'19, a hackathon organised by bosch.
-image.png
-
-1. Edit section About the project
-2. Change shield of built with. 
-3. Change Getting started.
-4. Change usage
-5. 
 -->
-
-[comment]: <> ([![Status][developement-shield]][developement-shiled-url])
-
+[![Status][developement-shield]][developement-shiled-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -33,13 +19,13 @@ image.png
 <br />
 <p align="center">
   <a href="https://github.com/rohitdavas/Vehicle-Route-Optimisation">
-    <img src="image.png" alt="Logo">
+    <img src="images/logo.png" alt="Logo">
   </a>
 
-  <h3 align="center">Bosch Route Optimisation</h3>
+  <h3 align="center">Vehicle Route Optimisation</h3>
 
   <p align="center">
-    A solution proposed for bosch route optimisation problem during Inter IIT Tech Meet'19, a hackathon organised by bosch.
+    A solution proposed for Bus route optimisation during Inter IIT Tech Meet'19 at IIT Roorkee.
     <br />
     <a href="https://rohitdavas.github.io/projects/Vehicle-Route-Optimisation.html"><strong>Explore the docs »</strong></a>
     <br />
@@ -83,6 +69,17 @@ image.png
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<a href="https://github.com/rohitdavas/Vehicle-Route-Optimisation">
+    <img src="images/project_logo.png" alt="Project image" width="256" height="256">
+</a>
+
+Background subtraction is a problem where we need to get the foreground of an image given that we have a background. 
+A good reference can be found over [here](https://sites.google.com/site/backgroundsubtraction/Home?authuser=0)
+
+The target is to build a general background subtractor which takes any two pair - { background image, current frame} and 
+subtracts out the foreground mask.
+
+Details about the target of project, literature survey, references can be found [here](https://sites.google.com/site/backgroundsubtraction/Home?authuser=0)
 
 ### Built With
 [![PyTorch][pytorch-shield]][pytorch-shield-url] [![Qt5][qt-shield]][qt-shield-url] [![OpenCV][opencv-shield]][opencv-shield-url]
@@ -106,6 +103,8 @@ Install the requisite libraries as mentioned in the requirements.txt in the modu
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Integration of `BGS Neural Network Model` into the BGS software is still pending. `BGS software` currently, uses
+`opencv's MOG2` for Background subtraction. 
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -143,10 +142,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-My team : 
-- [Pranav Reddy](https://www.github.com/PranavG200)
-- [Vaidehi Som](https://www.github.com/VaidehiSom)
-- Rajat Kumar Varshney
+A work from the wonderful guidance and motivation from 
+* [Dr. Nils Hasler](https://www.linkedin.com/in/nils-hasler-91734a12/)
+* [Michal Ritcher](https://www.linkedin.com/in/michal-richter-595661154/)
+* [Dr. Vinit Jakhetiya](https://www.linkedin.com/in/vinit-jakhetiya-ph-d-b2450a80/?originalSubdomain=in)
+
+
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 

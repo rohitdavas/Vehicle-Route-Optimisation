@@ -85,7 +85,9 @@ image.png
 ## About The Project
 
 ### Built With
+<!--
 [![PyTorch][pytorch-shield]][pytorch-shield-url] [![Qt5][qt-shield]][qt-shield-url] [![OpenCV][opencv-shield]][opencv-shield-url]
+-->
 
 <!-- GETTING STARTED -->
 ## Getting Started
